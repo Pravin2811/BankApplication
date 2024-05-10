@@ -1,0 +1,12 @@
+<div class="nominee-container">
+    <h2>Nominee update</h2>
+    <div class="nominee-info">
+      <!-- <p><strong>Nominee Name:</strong> {{ result.name }}</p>
+      <p><strong>Nominee Aadhaar:</strong> {{ result.mobile }}</p> -->
+      <p><strong>Nominee Name:</strong> <input type="text" [(ngModel)]="name"></p>
+      <p><strong>Nominee Aadhaar:</strong> <input type="text" [(ngModel)]="aadhaar"></p>
+    </div>
+    <div class="nominee-update-button">
+        <button (click)="onSave()">Save</button>
+    </div>
+</div>

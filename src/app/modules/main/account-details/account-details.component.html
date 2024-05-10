@@ -1,0 +1,14 @@
+<!-- <div class="account-details">
+    <h2>Account Details</h2>
+    <p>Account Number: {{ accountNo }}</p>
+    <p>Balance: {{ balance | currency: 'INR'}}</p>
+</div> -->
+  
+<div class="account-details">
+    <h2>Account Details</h2>
+    <button (click)="toggleDetails()">Show</button>
+    <div *ngIf="showDetails">
+        <p>Account Number: {{ accountNo }}</p>
+        <p>Balance: {{ balance | currency: 'INR'}}</p>
+    </div>
+</div>

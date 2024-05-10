@@ -1,0 +1,39 @@
+.menu {
+    width: 25%;
+    height: 350px;
+    padding: 20px;
+    background-color: bisque;
+}
+
+.menu div {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.account {
+    margin: 30px 100px;
+    // border: 2px solid #007bff; 
+    // border-radius: 5px; 
+}
+
+.funds {
+    margin: 30px 100px;
+    // border: 2px solid #28a745; 
+    // border-radius: 5px; 
+}
+
+.nominee {
+    margin: 30px 100px;
+    // border: 2px solid #ffc107; 
+    // border-radius: 5px; 
+}
+
+.profile {
+    margin: 30px 100px;
+    // border: 2px solid #dc3545; 
+    // border-radius: 5px; 
+}
+
+.logout {
+    margin: 30px 100px;
+}

@@ -1,0 +1,11 @@
+<div class="nominee-container">
+    <div class="nominee-details">
+        <h2>Nominee Details</h2>
+        <p>Nominee name: {{ nominee }}</p>
+        <p>Nominee aadhaar: {{ aadhaar}}</p>
+    </div>
+    <div class="nominee-update-button">
+        <button (click)="onUpdate()">{{ nominee && aadhaar ? 'Update' : 'Add' }}</button>
+        <button (click)="onDelete()">Delete</button>
+    </div>
+</div>
