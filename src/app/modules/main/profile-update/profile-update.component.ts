@@ -20,18 +20,7 @@ export class ProfileUpdateComponent {
     })
   }
 
-  // onSave(){
-  //   this.updatedProfile.emit({ email: this.email, city: this.city });
-  //   // console.log(this.email);
-    
-  //   this.authService.email = this.email
-  //   this.authService.city = this.city
-  //   // console.log(this.authService.email);
-    
-  // }
-
   onSave() {
-    //this.updatedProfile.emit({ email: this.email, city: this.city });
     this.authService.email = this.email
     this.authService.city = this.city
     this.router.navigate(['/main/profile']);

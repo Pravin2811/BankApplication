@@ -15,10 +15,6 @@ export class ProfileComponent {
   city: string = '';
 
   constructor(private authService: AuthService, public router: Router){
-    // this.name = this.authService.firstname;
-    // this.mobileno = this.authService.mobileno;
-    // this.email = this.authService.email;
-    // this.city = this.authService.city;
   }
 
   ngOnInit() {
@@ -33,7 +29,6 @@ export class ProfileComponent {
   }
 
   onUpdateProfile(eventData: any) {
-    // Update profile data
     this.email = eventData.email;
     this.city = eventData.city;
 

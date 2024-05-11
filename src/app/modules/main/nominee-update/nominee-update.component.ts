@@ -21,7 +21,6 @@ export class NomineeUpdateComponent {
   }
 
   onSave() {
-    //this.updatedProfile.emit({ email: this.email, city: this.city });
     this.authService.nominee = this.name
     this.authService.nomineeAadhaar = this.aadhaar
     this.router.navigate(['/main/nominee-maintenance']);
