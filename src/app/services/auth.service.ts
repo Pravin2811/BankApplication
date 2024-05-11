@@ -1,16 +1,5 @@
 import { Injectable } from '@angular/core';
 
-// interface Customer {
-//   username: string,
-//   password: string,
-//   accountno: number,
-//   balance: number,
-//   firstname: string,
-//   mobileno: number,
-//   email: string,
-//   city: string
-// }
-
 @Injectable({
   providedIn: 'root'
 })

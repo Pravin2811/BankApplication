@@ -12,8 +12,6 @@ export class LoginPageComponent {
   password: string = ''
 
   constructor(private authService: AuthService, private router: Router){
-    // this.username = authService.getUsername();
-    // this.password = authService.getPassword();
   }
 
   onSubmit(){
