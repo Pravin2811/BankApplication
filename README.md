@@ -5,17 +5,17 @@ The objective of the project is to provide customer to see their account balance
 
 ## Modules
 #### Account Details
- -Account Number
+ -Account Number<br>
  -Balance
 
 #### Nominee Details
- -Nominee Name
+ -Nominee Name<br>
  -Nominee Aadhaar
 
 #### Profile
- -User name
- -Mobile No
- -Email
+ -User name<br>
+ -Mobile No<br>
+ -Email<br>
  -City
 
 ## Components
@@ -29,7 +29,7 @@ The objective of the project is to provide customer to see their account balance
  -To view the customer profile and edit the details
 
 ## Technologies used:-
- -Angular
+ -Angular<br>
  -Typescript
 
 ## End
