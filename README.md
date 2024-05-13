@@ -8,6 +8,10 @@ The objective of the project is to provide customer to see their account balance
  -View Account Number<br>
  -View Balance
 
+#### Fund Transfer
+ -Enter Receiver account number, amount details<br>
+ -Send the amount to the customer
+
 #### Nominee Details
  -View and add Nominee Name<br>
  -View and Add Nominee Aadhaar
@@ -22,6 +26,9 @@ The objective of the project is to provide customer to see their account balance
 #### Account Details 
  -To show account number and balance details
 
+#### Fund Transfer
+ -To send the amount to the customer
+ 
 #### Nominee
  -To add and view nominee<br>
  -Delete nominee details
