@@ -15,7 +15,7 @@ export class AccountDetailsComponent implements OnInit {
 
   ngOnInit(): void {
     this.accountNo = this.authService.getAccountNo();
-    this.balance = this.authService.getBalance();
+    this.balance = this.authService.getBalance;
   }
 
   toggleDetails() {

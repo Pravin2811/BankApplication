@@ -30,8 +30,12 @@ export class AuthService {
     return this.accountno;
   }
 
-  getBalance(): number {
+  public get getBalance(): number {
     return this.balance;
+  }
+
+  public set updateBalance(amount: number){
+    this.balance = amount;
   }
 
   getProfile(){

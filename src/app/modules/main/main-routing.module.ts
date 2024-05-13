@@ -6,17 +6,16 @@ import { ProfileComponent } from './profile/profile.component';
 import { ProfileUpdateComponent } from './profile-update/profile-update.component';
 import { NomineeComponent } from './nominee/nominee.component';
 import { NomineeUpdateComponent } from './nominee-update/nominee-update.component';
+import { FundTransferComponent } from './fund-transfer/fund-transfer.component';
 
 const routes: Routes = [
-  // {path:'',component:HeaderComponent},
-  // {path:'', component:MenuComponent}
   {
     path: '',
     component: HeaderComponent,
     children: [
       { path: '', redirectTo: 'main', pathMatch: 'full' },
-      //{ path: '', component: MenuComponent },
       { path: 'account-details', component: AccountDetailsComponent },
+      { path: 'fund-transfer', component: FundTransferComponent},
       { path: 'profile', component: ProfileComponent},
       {path: 'update-profile/:data', component: ProfileUpdateComponent},
       { path: 'nominee-maintenance', component: NomineeComponent},

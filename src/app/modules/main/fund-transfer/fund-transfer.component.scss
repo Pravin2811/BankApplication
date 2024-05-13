@@ -1,0 +1,36 @@
+.fund-transfer-container {
+    margin-left: 600px;
+    margin-top: -400px;
+    max-width: 200px;
+    height: 100px;
+}
+  
+.fund-transfer-info {
+    margin-bottom: 10px;
+}
+  
+.fund-transfer-info p {
+    margin-bottom: 10px;
+}
+  
+.fund-transfer-info input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.fund-transfer-button button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.fund-transfer-button button:hover {
+    background-color: #0056b3;
+}
+  
