@@ -5,25 +5,26 @@ The objective of the project is to provide customer to see their account balance
 
 ## Modules
 #### Account Details
- -Account Number<br>
- -Balance
+ -View Account Number<br>
+ -View Balance
 
 #### Nominee Details
- -Nominee Name<br>
- -Nominee Aadhaar
+ -View and add Nominee Name<br>
+ -View and Add Nominee Aadhaar
 
 #### Profile
- -User name<br>
- -Mobile No<br>
- -Email<br>
- -City
+ -View User name<br>
+ -View Mobile No<br>
+ -View and edit Email<br>
+ -View and edit City
 
 ## Components
 #### Account Details 
  -To show account number and balance details
 
 #### Nominee
- -To add and view nominee
+ -To add and view nominee<br>
+ -Delete nominee details
 
 #### Profile
  -To view the customer profile and edit the details
