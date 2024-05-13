@@ -16,6 +16,9 @@ export class FundTransferComponent {
 
   sendAmount(){
     const totalBalance = this.authService.getBalance;
+    if(this.toAccount.length !== 9){
+      return alert('Kindly check receiver account no');
+    }
     if(this.verifyAccountNo !== this.toAccount){
       return alert("Please check Receiver account number")
     }

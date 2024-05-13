@@ -2,8 +2,8 @@
     <h2>Fund Transfer</h2>
     <div class="fund-transfer-info">
         <p>Send From:<input type="text" [value]="fromAccount" readOnly><p>
-        <p>Send To:<input type="text" [(ngModel)]="toAccount"></p>
-        <p>Confirm Account No:<input type="text" [(ngModel)]="verifyAccountNo"></p>
+        <p>Send To:<input type="text" [(ngModel)]="toAccount" maxlength="9" size="9"></p>
+        <p>Confirm Account No:<input type="text" [(ngModel)]="verifyAccountNo" maxlength="9" size="9"></p>
         <p>Amount:<input type="number" [(ngModel)]="amount"></p>
     </div>
     <div class="fund-transfer-button">
