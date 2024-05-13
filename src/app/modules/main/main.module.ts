@@ -7,9 +7,10 @@ import { MenuComponent } from './menu/menu.component';
 import { AccountDetailsComponent } from './account-details/account-details.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ProfileUpdateComponent } from './profile-update/profile-update.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NomineeComponent } from './nominee/nominee.component';
 import { NomineeUpdateComponent } from './nominee-update/nominee-update.component';
+import { FundTransferComponent } from './fund-transfer/fund-transfer.component';
 
 
 @NgModule({
@@ -20,12 +21,14 @@ import { NomineeUpdateComponent } from './nominee-update/nominee-update.componen
     ProfileComponent,
     ProfileUpdateComponent,
     NomineeComponent,
-    NomineeUpdateComponent
+    NomineeUpdateComponent,
+    FundTransferComponent
   ],
   imports: [
     CommonModule,
     MainRoutingModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ]
 })
 export class MainModule { }
